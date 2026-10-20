@@ -1,0 +1,53 @@
+# NAME: HK Bank
+# DESC: 香港银行及相关金融机构，建议 DIRECT
+# FORMAT: mihomo classical text / Surge / Loon / Shadowrocket RULE-SET
+
+# 中银香港 / 中银集团（香港）
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,bochkonline.com
+DOMAIN-SUFFIX,bocgroup.com
+DOMAIN-SUFFIX,boclife.com.hk
+DOMAIN-SUFFIX,bocpt.com
+DOMAIN-SUFFIX,bocgins.com
+DOMAIN-SUFFIX,bocgi.com
+DOMAIN-SUFFIX,boci.com.hk
+DOMAIN-SUFFIX,bocigroup.com
+DOMAIN-SUFFIX,ncb.com.hk
+
+# 汇丰
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-SUFFIX,hsbcnet.com
+DOMAIN-SUFFIX,hsbc.hk
+DOMAIN-SUFFIX,hsbc
+DOMAIN-SUFFIX,vam-hk.cloud1.vv1865.com
+DOMAIN,hsbc.edge.sdk.awswaf.com
+DOMAIN,c-hsbc.lytics.io
+DOMAIN,cdnhsbcrhostorage.azureedge.net
+
+# 恒生
+DOMAIN-SUFFIX,hangseng.com
+DOMAIN-SUFFIX,hangseng.com.cn
+
+# 众安银行 ZA Bank
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,zabank.com
+DOMAIN-SUFFIX,zaticdn.com
+
+# 其他香港银行
+DOMAIN-SUFFIX,sc.com
+DOMAIN-SUFFIX,citibank.com.hk
+DOMAIN-SUFFIX,dbs.com.hk
+DOMAIN-SUFFIX,ocbcwhhk.com
+DOMAIN-SUFFIX,ocbc.com.hk
+DOMAIN-SUFFIX,cmbwinglungbank.com
+DOMAIN-SUFFIX,cncbinternational.com
+DOMAIN-SUFFIX,welab.bank
+DOMAIN-SUFFIX,icbcasia.com
+DOMAIN,icbc-asia.icbc.com.cn
+DOMAIN,mobilehk.icbc.com.cn
+
+# 中资银行在港投行
+DOMAIN-SUFFIX,ccbintl.com.hk
+DOMAIN-SUFFIX,cmbi.com.hk
+DOMAIN-SUFFIX,icbci.com.hk
