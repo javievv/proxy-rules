@@ -1,0 +1,54 @@
+# 由 rules/hk-bank.txt 生成，请勿直接修改
+# NAME: HK Bank
+# DESC: 香港银行及相关金融机构，建议 DIRECT
+# FORMAT: DOMAIN / DOMAIN-SUFFIX 规则，不带策略；Quantumult X 版本见 quantumultx/
+
+# 中银香港 / 中银集团（香港）
+HOST-SUFFIX,bochk.com,DIRECT
+HOST-SUFFIX,bochkonline.com,DIRECT
+HOST-SUFFIX,bocgroup.com,DIRECT
+HOST-SUFFIX,boclife.com.hk,DIRECT
+HOST-SUFFIX,bocpt.com,DIRECT
+HOST-SUFFIX,bocgins.com,DIRECT
+HOST-SUFFIX,bocgi.com,DIRECT
+HOST-SUFFIX,boci.com.hk,DIRECT
+HOST-SUFFIX,bocigroup.com,DIRECT
+HOST-SUFFIX,ncb.com.hk,DIRECT
+
+# 汇丰
+HOST-SUFFIX,hsbc.com.hk,DIRECT
+HOST-SUFFIX,hsbc.com,DIRECT
+HOST-SUFFIX,hsbcnet.com,DIRECT
+HOST-SUFFIX,hsbc.hk,DIRECT
+HOST-SUFFIX,hsbc,DIRECT
+HOST-SUFFIX,vam-hk.cloud1.vv1865.com,DIRECT
+HOST,hsbc.edge.sdk.awswaf.com,DIRECT
+HOST,c-hsbc.lytics.io,DIRECT
+HOST,cdnhsbcrhostorage.azureedge.net,DIRECT
+
+# 恒生
+HOST-SUFFIX,hangseng.com,DIRECT
+HOST-SUFFIX,hangseng.com.cn,DIRECT
+
+# 众安银行 ZA Bank
+HOST-SUFFIX,za.group,DIRECT
+HOST-SUFFIX,zabank.com,DIRECT
+HOST-SUFFIX,zaticdn.com,DIRECT
+
+# 其他香港银行
+HOST-SUFFIX,sc.com,DIRECT
+HOST-SUFFIX,citibank.com.hk,DIRECT
+HOST-SUFFIX,dbs.com.hk,DIRECT
+HOST-SUFFIX,ocbcwhhk.com,DIRECT
+HOST-SUFFIX,ocbc.com.hk,DIRECT
+HOST-SUFFIX,cmbwinglungbank.com,DIRECT
+HOST-SUFFIX,cncbinternational.com,DIRECT
+HOST-SUFFIX,welab.bank,DIRECT
+HOST-SUFFIX,icbcasia.com,DIRECT
+HOST,icbc-asia.icbc.com.cn,DIRECT
+HOST,mobilehk.icbc.com.cn,DIRECT
+
+# 中资银行在港投行
+HOST-SUFFIX,ccbintl.com.hk,DIRECT
+HOST-SUFFIX,cmbi.com.hk,DIRECT
+HOST-SUFFIX,icbci.com.hk,DIRECT
