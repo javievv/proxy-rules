@@ -1,0 +1,21 @@
+# NAME: Apple Intelligence
+# DESC: Apple Intelligence / ChatGPT 扩展 / Siri，建议走美国节点（台湾次之，香港不可用）
+# FORMAT: DOMAIN / DOMAIN-SUFFIX 规则，不带策略（Surge / Clash list 格式）
+# SOURCE: v2fly/domain-list-community data/apple-intelligence + iOS 26.x 社区验证的补充域名
+
+# ChatGPT 扩展中继（上游 v2fly 已收录）
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp4.cloudflare.com
+
+# Siri
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+
+# 区域判定
+DOMAIN-SUFFIX,gateway.icloud.com
+# 会同时影响国行 eSIM、国内版地图、Wi-Fi 通话的区域判定，有问题可删掉这一条
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com

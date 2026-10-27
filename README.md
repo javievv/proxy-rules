@@ -5,6 +5,13 @@
 | 文件 | 内容 | 建议策略 |
 |---|---|---|
 | [`rules/hk-bank.txt`](rules/hk-bank.txt) | 香港银行：中银香港、汇丰、恒生、众安等 | 直连 |
+| [`rules/apple-intelligence.txt`](rules/apple-intelligence.txt) | Apple Intelligence、ChatGPT 扩展、Siri | 美国节点（香港不可用），放在 Apple 直连规则之前 |
+
+下面以 `hk-bank.txt` 为例，其他规则把地址和策略换掉即可，例如：
+
+```
+https://raw.githubusercontent.com/javievv/proxy-rules/main/rules/apple-intelligence.txt
+```
 
 规则采用通用写法：每行一条 `DOMAIN` / `DOMAIN-SUFFIX`，不带策略。
 
