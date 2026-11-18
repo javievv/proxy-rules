@@ -53,3 +53,7 @@ DOMAIN,mobilehk.icbc.com.cn
 DOMAIN-SUFFIX,ccbintl.com.hk
 DOMAIN-SUFFIX,cmbi.com.hk
 DOMAIN-SUFFIX,icbci.com.hk
+
+# 银行安全与风控 SDK（BioCatch / Zimperium）
+DOMAIN-SUFFIX,we-stats.com
+DOMAIN-SUFFIX,zimperium.com
