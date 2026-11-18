@@ -32,6 +32,8 @@ DOMAIN-SUFFIX,hangseng.com.cn
 # 众安银行 ZA Bank
 DOMAIN-SUFFIX,za.group
 DOMAIN-SUFFIX,zabank.com
+DOMAIN-SUFFIX,zainvest.group
+DOMAIN-SUFFIX,zajourney.com
 DOMAIN-SUFFIX,zaticdn.com
 
 # 其他香港银行
